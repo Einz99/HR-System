@@ -12,10 +12,10 @@ import {
   Eye,
   X
 } from 'lucide-react';
-import { LeaveRequest, LeaveBalance, User } from '../types';
+import { LeaveRequest, LeaveBalance, IntUser } from '../types';
 
 interface LeaveManagementProps {
-  user: User;
+  user: IntUser;
 }
 
 export const LeaveManagement: React.FC<LeaveManagementProps> = ({ user }) => {

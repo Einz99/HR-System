@@ -1,8 +1,9 @@
 import React from 'react';
 import { BookOpen, Clock, TrendingUp, Bell, LogOut, CheckCircle, Play } from 'lucide-react';
+import { IntUser } from '../types';
 
 interface InternDashboardProps {
-  user: any;
+  user: IntUser;
   onLogout: () => void;
 }
 

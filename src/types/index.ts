@@ -1,4 +1,4 @@
-export interface User {
+export interface IntUser {
   id: string;
   name: string;
   role: 'hr-admin' | 'employee' | 'intern' | 'vp-ops' | 'it-head';

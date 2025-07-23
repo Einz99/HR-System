@@ -2,9 +2,10 @@ import React from 'react';
 import { Clock, Calendar, Award, User, Bell, LogOut, CheckCircle, AlertCircle } from 'lucide-react';
 import { LeaveManagement } from './LeaveManagement';
 import { PayrollManagement } from './PayrollManagement';
+import { IntUser } from '../types';
 
 interface EmployeeDashboardProps {
-  user: any;
+  user: IntUser;
   onLogout: () => void;
 }
 
